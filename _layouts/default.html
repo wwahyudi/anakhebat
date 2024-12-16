@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+    {% include head.html %}
+    <body>
+        
+        <!-- Preloader  -->
+        <div class='preloder'>
+            <div class='loader'>
+                <div class='loader--dot'></div>
+                <div class='loader--dot'></div>
+                <div class='loader--dot'></div>
+                <div class='loader--dot'></div>
+                <div class='loader--dot'></div>
+                <div class='loader--dot'></div>
+                <div class='loader--text'></div>
+            </div>
+        </div>
+        <!-- End Preloader  -->
+
+
+        {% include header.html %}
+
+
+        {{ content }}
+        
+        {% include footer.html %}
+        
+        {% include javascripts.html %}
+    </body>
+</html>

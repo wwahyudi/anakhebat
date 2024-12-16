@@ -1,0 +1,103 @@
+---
+# The scss main file which include files from _sass/
+---
+@charset "UTF-8";
+
+/*!
+* PGTK Anak Hebat theme for pgtkanakhebat.com 
+* @author Widya Wahyudi
+* @link http:/* pgtkanakhebat.com/
+* @license MIT
+*/
+
+//reset css
+@import "main/variables";
+
+//reset css
+@import "main/mixins";
+
+//reset css
+@import "main/reset";
+
+//reset css
+@import "main/button";
+
+//header css
+@import "main/header";
+
+//breadcrumb part style css
+@import "main/breadcrumb_part";
+
+//banner part style css 
+@import "main/banner_part";
+
+//about part style css 
+@import "main/about_us";
+
+///ada yang error
+//services part style css
+@import "main/services_part";
+
+//services part style css 
+@import "main/fetures_part";
+
+//event part style css 
+@import "main/event_part";
+
+//success story part style css 
+@import "main/success_story";
+
+//gallery part style css
+@import "main/gallery";
+
+//cta part part style css 
+@import "main/cta_part";
+
+//blog post part style css 
+@import "main/blog_post";
+
+//program list style css 
+@import "main/program_list";
+
+//count section style css 
+@import "main/count_section";
+
+//team section style css 
+@import "main/team_section";
+
+//team section style css 
+@import "main/client_review";
+
+//team section style css 
+@import "main/teacher_list";
+
+//get start section style css 
+@import "main/get_start_part";
+
+//event page style css 
+@import "main/event_page";
+
+//event page style css 
+@import "main/event_details";
+
+//contact part style css 
+@import "main/contact_part";
+
+//teacher details part css 
+@import "main/teacher_details_info";
+
+//cta part css 
+@import "main/cta_part";
+
+//contact part css 
+@import "main/contact";
+
+//countdown part css 
+@import "main/countdown";
+
+//footer css 
+@import "main/footer";
+
+//@import "fontawesome/solid";
+//@import "fontawesome/fontawesome";
+

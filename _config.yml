@@ -1,0 +1,31 @@
+#Site Settings
+title: "PGTK Anak Hebat"
+author: "Yayasan Pendidikan Putra Putri Hebat (YP3H)"
+description: >- # this means to ignore newlines until "baseurl:"
+  Playgroup & Taman Kanak-Kanak Anak Hebat - Sekolah Unggulan. 
+  Make a smart generation, independent, and cultured children. 
+  Early childhood education is the way to care Golden Generation.
+baseurl: ""
+url: "https://pgtkanakhebat.com"
+date_format: "%-d %b %Y"
+categories: ""
+ 
+# Google services
+google_tag_manager: "G-KSWZ5E3FVE"
+
+sass:
+  # compressing sass
+  style: compressed
+
+# Exclude from processing.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor # when use bootstrap, change folder vendor to bootstrapvendor, update _mixins.scss
+  - _logo
+  - README.md
+  - CNAME
+  - .gitignore
